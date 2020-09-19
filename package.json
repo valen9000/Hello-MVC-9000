@@ -1,10 +1,11 @@
 {
   "name": "hello-mvc",
   "version": "1.0.0",
-  "description": "",
+  "description": "lorem ipsum",
   "main": "index.js",
   "scripts": {
-      "start": "node index.js",
+    "start": "node index.js",
+    "dev":"nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,7 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^5.10.5",
+    "mongoose": "^5.10.3",
     "pug": "^3.0.0"
   },
   "devDependencies": {
